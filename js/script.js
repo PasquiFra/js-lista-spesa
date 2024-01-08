@@ -12,7 +12,8 @@ let i = 0;
 
 while (i < products.length) {
     
-    groceryList.innerHTML += `<li class="list-group-item">${products [i]}</li>`;
+    groceryList.innerHTML += `<li class="list-group-item rounded">${products [i]}</li>`;
     console.log(groceryList, "i:", i);
 
+    i++;
 }
